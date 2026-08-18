@@ -1,0 +1,11 @@
+{
+  "name": "my-profile",
+  "version": "1.0.0",
+  "description": "Personal single-user profile site with a private /customize visual editor. Zero npm dependencies — pure Node.js.",
+  "private": true,
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT"
+}

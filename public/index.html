@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>profile</title>
+<link rel="icon" id="favicon" href="/assets/profile.gif">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800&family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/profile.css">
+</head>
+<body>
+
+  <!-- Click to Enter -->
+  <div id="enter-screen" class="enter-screen">
+    <div id="enter-bg" class="enter-bg"></div>
+    <div class="enter-overlay" id="enter-overlay"></div>
+    <canvas id="enter-particles" class="enter-particles"></canvas>
+    <div class="enter-content">
+      <div id="enter-text" class="enter-text"></div>
+      <button id="enter-button" class="enter-button hidden">Enter</button>
+    </div>
+  </div>
+
+  <!-- Background layer -->
+  <div id="bg-layer" class="bg-layer" data-editable="background">
+    <video id="bg-video" class="bg-media hidden" autoplay loop muted playsinline webkit-playsinline></video>
+    <img id="bg-image" class="bg-media hidden" alt="">
+    <div id="bg-color" class="bg-media hidden"></div>
+    <canvas id="bg-particles" class="bg-media hidden"></canvas>
+    <div id="bg-overlay" class="bg-overlay"></div>
+  </div>
+
+  <!-- Custom cursor -->
+  <div id="custom-cursor" class="custom-cursor hidden"></div>
+  <canvas id="cursor-trail-canvas" class="cursor-trail-canvas hidden"></canvas>
+
+  <div class="container" id="app-root">
+
+    <div class="top-controls" id="top-controls">
+      <div class="music-mini" id="music-mini" data-editable="music">
+        <img id="music-mini-art" class="music-mini-art" alt="">
+        <div class="music-mini-info">
+          <div id="music-mini-title" class="music-mini-title">—</div>
+          <canvas id="music-viz" class="music-viz" width="60" height="20"></canvas>
+        </div>
+        <button id="music-toggle" class="music-toggle" aria-label="Play/Pause">▶</button>
+        <input id="volume-slider" class="slider" type="range" min="0" max="1" step="0.01" value="0.3">
+      </div>
+    </div>
+
+    <!-- Profile card -->
+    <div id="profile-block" class="glass-card profile-block hidden">
+      <div class="profile-header">
+        <div class="profile-container" id="profile-container">
+          <img id="profile-picture" class="profile-picture" alt="Profile">
+          <img id="avatar-decoration" class="avatar-decoration hidden" alt="">
+        </div>
+        <div class="profile-info">
+          <div class="name-and-badges">
+            <div id="profile-name" class="profile-name"></div>
+            <div class="badge-box" id="badge-box">
+              <div class="badge-box-inner" id="badge-group"></div>
+            </div>
+          </div>
+          <div id="profile-bio" class="profile-bio"></div>
+        </div>
+      </div>
+
+      <div class="bio-separator"></div>
+
+      <div id="gallery-block" class="gallery-block hidden"></div>
+
+      <div class="profile-footer">
+        <div class="social-links" id="social-links"></div>
+        <div class="visitor-counter" id="visitor-counter">
+          <svg class="visitor-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
+          </svg>
+          <span id="visitor-count">0</span>
+          <span class="tooltip">Profile Views</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills card -->
+    <div id="skills-block" class="glass-card skills-block hidden"></div>
+
+    <div id="results-button-container" class="results-button-container hidden">
+      <button id="results-theme">Skills</button>
+      <div id="results-hint" class="results-hint hidden">Click again to return to profile</div>
+    </div>
+
+  </div>
+
+  <audio id="audio-player" preload="none"></audio>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="/js/profile.js"></script>
+</body>
+</html>

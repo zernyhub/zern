@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>customize — adbwifi</title>
+<link rel="icon" href="/assets/profile.gif">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/customize/css/admin.css">
+</head>
+<body>
+
+  <!-- Login -->
+  <div id="login-screen" class="login-screen">
+    <form id="login-form" class="login-card">
+      <div class="login-glow"></div>
+      <h1>customize</h1>
+      <p class="login-sub">Private editor — only you can see this.</p>
+      <input id="login-password" type="password" placeholder="Password" autocomplete="current-password" autofocus>
+      <button type="submit">Unlock</button>
+      <div id="login-error" class="login-error hidden"></div>
+    </form>
+  </div>
+
+  <!-- Editor -->
+  <div id="editor-root" class="editor-root hidden">
+
+    <header class="topbar">
+      <div class="topbar-left">
+        <div class="brand">✦ customize</div>
+      </div>
+      <div class="topbar-center">
+        <button class="icon-btn" id="btn-undo" title="Undo">↺</button>
+        <button class="icon-btn" id="btn-redo" title="Redo">↻</button>
+        <div class="divider"></div>
+        <button class="pv-btn active" data-pv="desktop" title="Desktop">🖥</button>
+        <button class="pv-btn" data-pv="tablet" title="Tablet">📱</button>
+        <button class="pv-btn" data-pv="mobile" title="Mobile">📲</button>
+        <button class="pv-btn" data-pv="fullscreen" title="Fullscreen">⛶</button>
+      </div>
+      <div class="topbar-right">
+        <span id="save-status" class="save-status">Saved ✓</span>
+        <button class="ghost-btn" id="btn-reset">Reset</button>
+        <a class="ghost-btn" href="/" target="_blank">View live ↗</a>
+        <button class="ghost-btn" id="btn-logout">Log out</button>
+      </div>
+    </header>
+
+    <div class="editor-body">
+      <nav class="left-nav" id="left-nav"></nav>
+
+      <main class="preview-pane">
+        <div class="preview-frame-wrap" id="preview-frame-wrap">
+          <iframe id="preview-frame" src="/?preview=1" title="Live preview"></iframe>
+        </div>
+      </main>
+
+      <aside class="right-panel" id="right-panel">
+        <div class="right-panel-inner" id="right-panel-inner"></div>
+      </aside>
+    </div>
+  </div>
+
+  <!-- Media library modal (also used as a picker from any field) -->
+  <div id="media-modal" class="modal hidden">
+    <div class="modal-backdrop" id="media-modal-backdrop"></div>
+    <div class="modal-card media-modal-card">
+      <div class="modal-header">
+        <h2 id="media-modal-title">Media Library</h2>
+        <button class="icon-btn" id="media-modal-close">✕</button>
+      </div>
+      <div class="media-toolbar">
+        <input id="media-search" type="text" placeholder="Search files…">
+        <select id="media-filter">
+          <option value="">All types</option>
+          <option value="image">Images</option>
+          <option value="audio">Audio</option>
+          <option value="video">Video</option>
+          <option value="font">Fonts</option>
+        </select>
+        <select id="media-sort">
+          <option value="new">Newest</option>
+          <option value="old">Oldest</option>
+          <option value="name">Name</option>
+          <option value="size">Size</option>
+        </select>
+        <button id="media-browse-btn" class="primary-btn">Browse files…</button>
+        <input id="media-file-input" type="file" multiple hidden>
+      </div>
+      <div id="media-dropzone" class="media-dropzone">
+        <div id="media-upload-progress" class="upload-progress hidden"></div>
+        <div id="media-grid" class="media-grid"></div>
+        <div id="media-empty" class="media-empty hidden">No files yet — drag files here or click "Browse files…"</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Badge editor modal -->
+  <div id="badge-modal" class="modal hidden">
+    <div class="modal-backdrop" data-close="badge-modal"></div>
+    <div class="modal-card">
+      <div class="modal-header"><h2>Badge</h2><button class="icon-btn" data-close="badge-modal">✕</button></div>
+      <div id="badge-modal-body" class="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Social editor modal -->
+  <div id="social-modal" class="modal hidden">
+    <div class="modal-backdrop" data-close="social-modal"></div>
+    <div class="modal-card">
+      <div class="modal-header"><h2>Social link</h2><button class="icon-btn" data-close="social-modal">✕</button></div>
+      <div id="social-modal-body" class="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Track editor modal -->
+  <div id="track-modal" class="modal hidden">
+    <div class="modal-backdrop" data-close="track-modal"></div>
+    <div class="modal-card">
+      <div class="modal-header"><h2>Track</h2><button class="icon-btn" data-close="track-modal">✕</button></div>
+      <div id="track-modal-body" class="modal-body"></div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="/customize/js/admin.js"></script>
+</body>
+</html>

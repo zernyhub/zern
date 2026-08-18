@@ -1,0 +1,430 @@
+{
+  "meta": {
+    "pageTitle": "w white",
+    "favicon": "/uploads/b196689e3f8b72c72cee4e89-689cfe5f-10d7-45cc-a65e-72de0aecd6d9.webp"
+  },
+  "theme": {
+    "preset": "void",
+    "primaryColor": "#000000",
+    "secondaryColor": "#000000",
+    "backgroundDark": "#0b0c10",
+    "textColor": "#ffffff",
+    "cardOpacity": 0,
+    "cardBlur": 0,
+    "cardBorderColor": "#ffffff",
+    "cardRadius": 40
+  },
+  "layout": {
+    "preset": "modern"
+  },
+  "clickToEnter": {
+    "enabled": true,
+    "phrases": [
+      "click to view",
+      "click to stalk",
+      "click just because",
+      "click to come inside",
+      "click to unlock",
+      "click to enter"
+    ],
+    "typingSpeedMs": 100,
+    "button": {
+      "show": false,
+      "text": "Enter",
+      "icon": "arrow"
+    },
+    "font": "'Space Mono', monospace",
+    "fontSize": 30,
+    "textColor": "#ffffff",
+    "background": {
+      "type": "color",
+      "color": "#000000",
+      "imageUrl": "",
+      "videoUrl": ""
+    },
+    "blur": 10,
+    "overlay": {
+      "color": "#000000",
+      "opacity": 0.55
+    },
+    "particles": {
+      "enabled": true,
+      "style": "stars"
+    },
+    "glow": true,
+    "cursor": "default",
+    "transition": {
+      "style": "dissolve",
+      "durationMs": 200
+    }
+  },
+  "avatar": {
+    "url": "/uploads/05e097353ec0595acd198e8b-PXL_20251211_170446817-removebg-preview__1_.png",
+    "size": 120,
+    "radius": 50,
+    "border": {
+      "width": 0,
+      "color": "#000000"
+    },
+    "glow": true,
+    "shadow": true,
+    "animation": "none",
+    "decorationUrl": "/uploads/e83f17d06882a36f8443dfcb-a_13913a00bd9990ab4102a3bf069f0f3f.png"
+  },
+  "username": {
+    "phrases": [
+      "Zern",
+      "HiddenTalks",
+      "WetHospitalSocks",
+      "Pimpkin",
+      "SeizureWarrant",
+      "exitscamming."
+    ],
+    "typewriter": true,
+    "typingSpeedMs": 105,
+    "deleteSpeedMs": 50,
+    "pauseMs": 2000,
+    "font": "'Orbitron', sans-serif",
+    "size": 19,
+    "weight": 900,
+    "color": "#ff0000",
+    "gradient": true,
+    "glow": true,
+    "shadow": true,
+    "letterSpacing": 10
+  },
+  "bio": {
+    "phrases": [
+      "Zern",
+      "HiddenTalks",
+      "WetHospitalSocks",
+      "Pimpkin",
+      "SeizureWarrant",
+      "exitscamming."
+    ],
+    "typewriter": true,
+    "typingSpeedMs": 60,
+    "deleteSpeedMs": 20,
+    "pauseMs": 2000,
+    "font": "'Courier New', monospace",
+    "size": 28,
+    "color": "rgba(255,255,255,0.8)",
+    "align": "left",
+    "cursor": true
+  },
+  "badges": [
+    {
+      "id": "3va78tee",
+      "name": "Site Owner",
+      "icon": "/uploads/7e516083527ea86bb0a4eef7-image_2026-08-18_183849376.png",
+      "color": "#fafafa",
+      "glow": true,
+      "shadow": true,
+      "tooltip": "Site Owner",
+      "description": "",
+      "size": 22,
+      "animation": "rainbow",
+      "order": 1
+    },
+    {
+      "id": "mqsvyn9t",
+      "name": "Site Moderator",
+      "icon": "/uploads/862630f93a23e9bb2076637a-image_2026-08-18_181445974.png",
+      "color": "#8B5CF6",
+      "glow": true,
+      "shadow": false,
+      "tooltip": "Site Moderator",
+      "description": "",
+      "size": 22,
+      "animation": "rainbow",
+      "order": 2
+    },
+    {
+      "id": "b1",
+      "name": "Developer",
+      "icon": "/assets/developer.png",
+      "color": "#8B5CF6",
+      "glow": true,
+      "shadow": true,
+      "tooltip": "Developer",
+      "description": "",
+      "size": 22,
+      "animation": "rainbow",
+      "order": 3
+    },
+    {
+      "id": "b2",
+      "name": "Verified",
+      "icon": "/assets/verified.gif",
+      "color": "#EC4899",
+      "glow": true,
+      "shadow": false,
+      "tooltip": "Verified",
+      "description": "",
+      "size": 22,
+      "animation": "rainbow",
+      "order": 4
+    },
+    {
+      "id": "z9l4gd9u",
+      "name": "💲",
+      "icon": "/uploads/ca92b3f5004b245cff04b0ca-image_2026-08-18_181820906.png",
+      "color": "#8B5CF6",
+      "glow": false,
+      "shadow": false,
+      "tooltip": "💲",
+      "description": "",
+      "size": 22,
+      "animation": "rainbow",
+      "order": 5
+    }
+  ],
+  "socials": [
+    {
+      "id": "4e2ljurn",
+      "platform": "roblox",
+      "name": "Roblox",
+      "url": "https://www.roblox.com/users/profile",
+      "icon": "/uploads/b640785b78567b2d7d328283-image_2026-08-18_174239096.png",
+      "color": "#8B5CF6",
+      "size": 40,
+      "animation": "tilt",
+      "order": 2,
+      "glow": false
+    },
+    {
+      "id": "u9vtv3ln",
+      "platform": "soundcloud",
+      "name": "soundcloud",
+      "url": "https://soundcloud.com/wethospitalsocks",
+      "icon": "/uploads/224ea6bf044cc26666c6a647-image_2026-08-18_174357819.png",
+      "color": "#8B5CF6",
+      "size": 40,
+      "animation": "tilt",
+      "order": 1,
+      "glow": false
+    }
+  ],
+  "background": {
+    "type": "image",
+    "color": "#000000",
+    "gradient": {
+      "from": "#0b0c10",
+      "to": "#1a1230"
+    },
+    "imageUrl": "/uploads/b196689e3f8b72c72cee4e89-689cfe5f-10d7-45cc-a65e-72de0aecd6d9.webp",
+    "videoUrl": "/uploads/920b35e2f76bed407a287cb8-FNnEalxUcAM-PW8.jpg",
+    "slideshow": {
+      "images": [],
+      "intervalMs": 6000
+    },
+    "opacity": 1,
+    "blur": 0,
+    "brightness": 100,
+    "contrast": 105,
+    "saturation": 100,
+    "overlay": {
+      "color": "#ff0000",
+      "opacity": 0
+    },
+    "particles": "none",
+    "animationSpeed": 1
+  },
+  "music": {
+    "enabled": true,
+    "autoplayAfterEnter": true,
+    "loop": true,
+    "shuffle": true,
+    "volume": 1,
+    "visualizer": {
+      "enabled": true,
+      "style": "waveform"
+    },
+    "playlist": [
+      {
+        "id": "1fy81yq1",
+        "title": "repeat myself.",
+        "artist": "Hiddentalks",
+        "url": "/uploads/281bb8cb2c7745454e21a0cd-9e37c1f7-4b14-4d4c-8106-71934b1b6277.mp3",
+        "artworkUrl": "/uploads/920b35e2f76bed407a287cb8-FNnEalxUcAM-PW8.jpg"
+      },
+      {
+        "id": "mqdbvzoz",
+        "title": "Keep me going",
+        "artist": "Slayr",
+        "url": "/uploads/89dbd665042e72f1b09ea766-keep_me_going__BIRDBRAIN_.mp3",
+        "artworkUrl": "/uploads/920b35e2f76bed407a287cb8-FNnEalxUcAM-PW8.jpg"
+      }
+    ]
+  },
+  "cursor": {
+    "type": "circle",
+    "color": "#ffffff",
+    "imageUrl": "/uploads/8a71687aa4eaf3bbc3a67585-fbd32e6c-2d0a-4e2d-bc8c-993cf03fe115.gif",
+    "trail": true,
+    "clickEffect": true
+  },
+  "gallery": {
+    "enabled": true,
+    "layout": "grid",
+    "items": [
+      {
+        "id": "10igg4bu",
+        "type": "image",
+        "url": "/uploads/cce493d27816977f6adf3309-image_2026-08-18_181123950.png",
+        "caption": ""
+      },
+      {
+        "id": "z681als7",
+        "type": "image",
+        "url": "/uploads/bf000c9d19c02d3f87e58230-cat_wink.gif",
+        "caption": ""
+      },
+      {
+        "id": "kg9xdg5u",
+        "type": "image",
+        "url": "/uploads/346c219633591f09b6c9de60-cat_silly.gif",
+        "caption": ""
+      },
+      {
+        "id": "odz5dqur",
+        "type": "image",
+        "url": "/uploads/da4f33e06706a803295d3e3f-nerd_kitty.gif",
+        "caption": ""
+      },
+      {
+        "id": "1lu8um4t",
+        "type": "image",
+        "url": "/uploads/f6862d9aa907780d2a552a84-sleepykitty.gif",
+        "caption": ""
+      },
+      {
+        "id": "c3gad2o6",
+        "type": "image",
+        "url": "/uploads/30a7c5baeef8a0a75fb8a282-sadkitty.gif",
+        "caption": ""
+      },
+      {
+        "id": "u32fehhl",
+        "type": "image",
+        "url": "/uploads/0996d76956734602c83ebe4c-surprised_kitty.gif",
+        "caption": ""
+      },
+      {
+        "id": "8z4wc7x1",
+        "type": "image",
+        "url": "/uploads/bc7db50a6574400c9da98e96-sillydog.gif",
+        "caption": ""
+      },
+      {
+        "id": "e5n52meg",
+        "type": "image",
+        "url": "/uploads/c48e02e5be6f7a133eae1bb1-dressedup_kitty.gif",
+        "caption": ""
+      },
+      {
+        "id": "t9q2w5kd",
+        "type": "image",
+        "url": "/uploads/0996d76956734602c83ebe4c-surprised_kitty.gif",
+        "caption": ""
+      },
+      {
+        "id": "z9bx812b",
+        "type": "image",
+        "url": "/uploads/cecbb845348708c723bed8aa-yawnkitty.gif",
+        "caption": ""
+      },
+      {
+        "id": "b09kqb1c",
+        "type": "image",
+        "url": "/uploads/e26a9da477d38d3109b3bf98-wink_lovekitty.gif",
+        "caption": ""
+      },
+      {
+        "id": "fa9lvr6a",
+        "type": "image",
+        "url": "/uploads/b875ac41bb38ff99de11e9f9-happykitty.gif",
+        "caption": ""
+      },
+      {
+        "id": "l3imw212",
+        "type": "image",
+        "url": "/uploads/6a941d484839ec214df15abf-cat234cat.gif",
+        "caption": ""
+      }
+    ]
+  },
+  "widgets": [
+    {
+      "id": "w1",
+      "type": "visitorCounter",
+      "x": 0,
+      "y": 0,
+      "hidden": false,
+      "locked": false,
+      "config": {
+        "startAt": 900999682,
+        "style": "pill"
+      }
+    }
+  ],
+  "skillsPanel": {
+    "enabled": false,
+    "title": "Programming Skills",
+    "buttonText": "Programming Skills",
+    "skills": [
+      {
+        "name": "C#",
+        "icon": "/assets/csharp.png",
+        "percent": 100
+      },
+      {
+        "name": "Python",
+        "icon": "/assets/python.png",
+        "percent": 95
+      },
+      {
+        "name": "JavaScript",
+        "icon": "/assets/javascript.png",
+        "percent": 75
+      },
+      {
+        "name": "TypeScript",
+        "icon": "/assets/typescript.png",
+        "percent": 75
+      },
+      {
+        "name": "CSS3",
+        "icon": "/assets/css3.png",
+        "percent": 70
+      },
+      {
+        "name": "Node.js",
+        "icon": "/assets/nodejs.png",
+        "percent": 70
+      },
+      {
+        "name": "HTML5",
+        "icon": "/assets/html5.png",
+        "percent": 65
+      },
+      {
+        "name": "Java",
+        "icon": "/assets/java.png",
+        "percent": 35
+      }
+    ]
+  },
+  "animations": {
+    "pageTransition": "slide",
+    "hoverIntensity": "normal",
+    "tiltOnHover": true
+  },
+  "fonts": {
+    "custom": []
+  },
+  "advanced": {
+    "customCss": ""
+  },
+  "_vc_startAt": 900999682
+}

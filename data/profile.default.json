@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "pageTitle": "adbwifi",
+    "favicon": "/assets/profile.gif"
+  },
+  "theme": {
+    "preset": "midnight",
+    "primaryColor": "#8B5CF6",
+    "secondaryColor": "#EC4899",
+    "backgroundDark": "#0b0c10",
+    "textColor": "#ffffff",
+    "cardOpacity": 0.62,
+    "cardBlur": 16,
+    "cardBorderColor": "rgba(255,255,255,0.14)",
+    "cardRadius": 20
+  },
+  "layout": {
+    "preset": "classic"
+  },
+  "clickToEnter": {
+    "enabled": true,
+    "phrases": ["click to view", "click to stalk", "click just because", "click to come inside", "click to unlock", "click to enter"],
+    "typingSpeedMs": 90,
+    "button": { "show": false, "text": "Enter", "icon": "arrow" },
+    "font": "'Space Mono', monospace",
+    "fontSize": 24,
+    "textColor": "#ffffff",
+    "background": { "type": "color", "color": "#000000", "imageUrl": "", "videoUrl": "" },
+    "blur": 10,
+    "overlay": { "color": "#000000", "opacity": 0.55 },
+    "particles": { "enabled": false, "style": "stars" },
+    "glow": true,
+    "cursor": "default",
+    "transition": { "style": "fade", "durationMs": 700 }
+  },
+  "avatar": {
+    "url": "/assets/profile.gif",
+    "size": 150,
+    "radius": 50,
+    "border": { "width": 0, "color": "#ffffff" },
+    "glow": true,
+    "shadow": true,
+    "animation": "orbit",
+    "decorationUrl": ""
+  },
+  "username": {
+    "phrases": ["robotnikjones", "lotad4k", "kit", "yunzii", "deathbyrobotnik", "kingofmexico"],
+    "typewriter": true,
+    "typingSpeedMs": 70,
+    "deleteSpeedMs": 50,
+    "pauseMs": 2000,
+    "font": "'Orbitron', sans-serif",
+    "size": 32,
+    "weight": 700,
+    "color": "#ffffff",
+    "gradient": false,
+    "glow": true,
+    "shadow": true,
+    "letterSpacing": 3
+  },
+  "bio": {
+    "phrases": ["gay furry femboy who loves his bf", "fuck homophobia", "protogen fursona", "i use arch btw", "lgbtq+ rights", "hyperpop is fire"],
+    "typewriter": true,
+    "typingSpeedMs": 60,
+    "deleteSpeedMs": 20,
+    "pauseMs": 2000,
+    "font": "'Courier New', monospace",
+    "size": 18,
+    "color": "rgba(255,255,255,0.8)",
+    "align": "left",
+    "cursor": true
+  },
+  "badges": [
+    { "id": "b1", "name": "Developer", "icon": "/assets/developer.png", "color": "#8B5CF6", "glow": false, "shadow": false, "tooltip": "Developer", "description": "", "size": 22, "animation": "none", "order": 1 },
+    { "id": "b2", "name": "Verified", "icon": "/assets/verified.gif", "color": "#EC4899", "glow": true, "shadow": false, "tooltip": "Verified", "description": "", "size": 22, "animation": "pulse", "order": 2 }
+  ],
+  "socials": [
+    { "id": "s1", "platform": "discord", "url": "https://discord.gg/seralythsoftware", "name": "Discord", "icon": "/assets/discord.png", "color": "#5865F2", "size": 36, "animation": "tilt", "order": 1 },
+    { "id": "s2", "platform": "github", "url": "https://github.com/adbwifi", "name": "GitHub", "icon": "/assets/github.png", "color": "#ffffff", "size": 36, "animation": "tilt", "order": 2 },
+    { "id": "s3", "platform": "youtube", "url": "https://www.youtube.com/@adbwifi", "name": "YouTube", "icon": "/assets/youtube.png", "color": "#FF0000", "size": 36, "animation": "tilt", "order": 3 }
+  ],
+  "background": {
+    "type": "video",
+    "color": "#000000",
+    "gradient": { "from": "#0b0c10", "to": "#1a1230" },
+    "imageUrl": "",
+    "videoUrl": "/assets/background2.mp4",
+    "slideshow": { "images": [], "intervalMs": 6000 },
+    "opacity": 1,
+    "blur": 0,
+    "brightness": 60,
+    "contrast": 105,
+    "saturation": 100,
+    "overlay": { "color": "#000000", "opacity": 0.35 },
+    "particles": "none",
+    "animationSpeed": 1
+  },
+  "music": {
+    "enabled": true,
+    "autoplayAfterEnter": true,
+    "loop": true,
+    "shuffle": true,
+    "volume": 0.3,
+    "visualizer": { "enabled": true, "style": "bars" },
+    "playlist": [
+      { "id": "m0", "title": "Track 0", "artist": "adbwifi", "url": "/assets/background_music0.mp3", "artworkUrl": "/assets/profile.gif" },
+      { "id": "m1", "title": "Track 1", "artist": "adbwifi", "url": "/assets/background_music1.mp3", "artworkUrl": "/assets/profile.gif" },
+      { "id": "m2", "title": "Track 2", "artist": "adbwifi", "url": "/assets/background_music2.mp3", "artworkUrl": "/assets/profile.gif" }
+    ]
+  },
+  "cursor": {
+    "type": "default",
+    "color": "#8B5CF6",
+    "imageUrl": "",
+    "trail": false,
+    "clickEffect": true
+  },
+  "gallery": {
+    "enabled": false,
+    "layout": "grid",
+    "items": []
+  },
+  "widgets": [
+    { "id": "w1", "type": "visitorCounter", "x": 0, "y": 0, "hidden": false, "locked": false, "config": { "startAt": 100000, "style": "pill" } }
+  ],
+  "skillsPanel": {
+    "enabled": true,
+    "title": "Programming Skills",
+    "buttonText": "Programming Skills",
+    "skills": [
+      { "name": "C#", "icon": "/assets/csharp.png", "percent": 100 },
+      { "name": "Python", "icon": "/assets/python.png", "percent": 95 },
+      { "name": "JavaScript", "icon": "/assets/javascript.png", "percent": 75 },
+      { "name": "TypeScript", "icon": "/assets/typescript.png", "percent": 75 },
+      { "name": "CSS3", "icon": "/assets/css3.png", "percent": 70 },
+      { "name": "Node.js", "icon": "/assets/nodejs.png", "percent": 70 },
+      { "name": "HTML5", "icon": "/assets/html5.png", "percent": 65 },
+      { "name": "Java", "icon": "/assets/java.png", "percent": 35 }
+    ]
+  },
+  "animations": {
+    "pageTransition": "fade",
+    "hoverIntensity": "normal",
+    "tiltOnHover": true
+  },
+  "fonts": {
+    "custom": []
+  },
+  "advanced": {
+    "customCss": ""
+  }
+}
